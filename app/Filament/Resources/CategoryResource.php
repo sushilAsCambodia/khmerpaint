@@ -17,13 +17,19 @@ class CategoryResource extends Resource
 {
     protected static ?string $model = Category::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-collection';
+    protected static ?string $navigationIcon = 'heroicon-o-adjustments';
+    // protected static ?string $navigationLabel = 'Category';
+    public static function getModelLabel(): string
+    {
+        return __('message.category');
+    }
 
     public static function form(Form $form): Form
     {
         return $form
             ->schema([
                 Forms\Components\TextInput::make('category_name')
+                ->label(__('message.category_name'))
                     ->required()
                     ->maxLength(255),
                 Forms\Components\Toggle::make('status')
@@ -36,8 +42,10 @@ class CategoryResource extends Resource
         return $table
             ->columns([
                 Tables\Columns\TextColumn::make('category_name')
+                ->label(__('message.category_name'))
                     ->sortable()->searchable()->toggleable(),
                 Tables\Columns\IconColumn::make('status')
+                ->label(__('message.status'))
                     ->boolean(),
                 Tables\Columns\TextColumn::make('created_at')
                     ->dateTime(),

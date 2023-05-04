@@ -44,7 +44,7 @@ class ProductResource extends Resource
         return $table
             ->columns([
                 Tables\Columns\TextColumn::make('category.category_name')
-                    ->label('Category Name')
+                    ->label(__('message.Category Name'))
                     ->sortable()
                     ->searchable()
                     ->toggleable(),
