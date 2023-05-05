@@ -19,5 +19,6 @@ return [
     'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
     'status' => 'ស្ថានភាព',
     'products' => 'ផលិតផល',
+    'sliders' => 'គ្រាប់រំកិល',
 
 ];

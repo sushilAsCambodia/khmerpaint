@@ -21,7 +21,10 @@ class ProductResource extends Resource
     protected static ?string $model = Product::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-collection';
-
+    public static function getModelLabel(): string
+    {
+        return __('message.products');
+    }
     public static function form(Form $form): Form
     {
         return $form
@@ -44,7 +47,7 @@ class ProductResource extends Resource
         return $table
             ->columns([
                 Tables\Columns\TextColumn::make('category.category_name')
-                    ->label(__('message.Category Name'))
+                    ->label(__('message.category_name'))
                     ->sortable()
                     ->searchable()
                     ->toggleable(),

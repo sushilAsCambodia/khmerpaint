@@ -18,5 +18,6 @@ return [
     'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
     'status' => 'Status',
     'products' => 'Products',
+    'sliders' => 'Sliders',
 
 ];
