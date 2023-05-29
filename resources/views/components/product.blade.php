@@ -32,7 +32,8 @@
                         </div>
                         <div class="portfolio-text">
                             <h3>{{ $item['product_name'] }}</h3>
-                            <a class="btn" href="{{ $item['product_image'] }}" data-lightbox="portfolio">+</a>
+                            {{-- <a class="btn" href="{{ $item['product_image'] }}" data-lightbox="portfolio">+</a> --}}
+                            <a class="mr-2" href="/single?id={{ $item['id'] }}">View more</a>
                         </div>
                     </div>
                 </div>

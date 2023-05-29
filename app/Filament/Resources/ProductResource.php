@@ -15,6 +15,7 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 use Filament\Forms\Components\FileUpload;
 use Filament\Tables\Filters\Filter;
+use Mohamedsabil83\FilamentFormsTinyeditor\Components\TinyEditor;
 
 class ProductResource extends Resource
 {
@@ -39,6 +40,7 @@ class ProductResource extends Resource
                     ->required()->onColor('success')->offColor('danger')->columnSpan(2),
                 Forms\Components\FileUpload::make('product_image')
                     ->required()->columnSpan(2),
+                TinyEditor::make('text_details')->label('Content')->columnSpan(2),
             ])->columns(2);
     }
 

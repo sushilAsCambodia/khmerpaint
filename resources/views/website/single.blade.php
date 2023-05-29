@@ -8,10 +8,15 @@
     <div class="single">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8">
+                <div class="col-lg-12    m-auto">
                     <div class="single-content wow fadeInUp">
-                        <img src="{{ URL::to('assets/website/img/single.jpg') }}" />
-                        <h2>Lorem ipsum dolor sit amet</h2>
+                        <img src="storage/{{ $product->product_image }}" />
+
+
+                        {!! $product->text_details !!}
+
+
+                        {{-- <h2>Lorem ipsum dolor sit amet</h2>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer molestie, lorem eu eleifend
                             bibendum, augue purus mollis sapien, non rhoncus eros leo in nunc. Donec a nulla vel turpis
@@ -71,9 +76,9 @@
                             aliquet erat tristique euismod. Praesent faucibus nisl augue, ac tempus libero pellentesque
                             malesuada. Vivamus iaculis imperdiet laoreet. Aliquam vel felis felis. Proin sed sapien erat.
                             Etiam a quam et metus tempor rutrum. Curabitur in faucibus justo. Etiam imperdiet iaculis urna.
-                        </p>
+                        </p> --}}
                     </div>
-                    <div class="single-tags wow fadeInUp">
+                    {{-- <div class="single-tags wow fadeInUp">
                         <a href="">National</a>
                         <a href="">International</a>
                         <a href="">Economics</a>
@@ -230,10 +235,10 @@
                                 <input type="submit" value="Post Comment" class="btn">
                             </div>
                         </form>
-                    </div>
+                    </div> --}}
                 </div>
 
-                <div class="col-lg-4">
+                {{-- <div class="col-lg-4">
                     <div class="sidebar">
                         <div class="sidebar-widget wow fadeInUp">
                             <div class="search-widget">
@@ -572,7 +577,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>

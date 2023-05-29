@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -38,10 +39,13 @@ Route::get('/blogs', function () {
     $brede = ['title' => 'Blogs', 'link' => 'blog'];
     return view('website.blog', compact('brede'));
 });
-Route::get('/single', function () {
-    $brede = ['title' => 'Single', 'link' => 'single'];
-    return view('website.single', compact('brede'));
-});
+
+Route::get('/single', [ProductController::class, 'index']);
+
+// Route::get('/single', function () {
+//     $brede = ['title' => 'Single', 'link' => 'single'];
+//     return view('website.single', compact('brede'));
+// });
 Route::get('/contact', function () {
     $brede = ['title' => 'Contact Us', 'link' => 'contact'];
     return view('website.contact', compact('brede'));
