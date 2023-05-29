@@ -40,7 +40,7 @@ class ProductResource extends Resource
                     ->required()->onColor('success')->offColor('danger')->columnSpan(2),
                 Forms\Components\FileUpload::make('product_image')
                     ->required()->columnSpan(2),
-                TinyEditor::make('text_details')->label('Content')->columnSpan(2),
+                TinyEditor::make('text_details')->label('Content')->minHeight(500)->columnSpan(2),
             ])->columns(2);
     }
 
