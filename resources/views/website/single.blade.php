@@ -8,10 +8,9 @@
     <div class="single">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12    m-auto">
+                <div class="col-lg-12 m-auto">
                     <div class="single-content wow fadeInUp">
-                        <img src="storage/{{ $product->product_image }}" />
-
+                        <img style="width:350px" src="storage/{{ $product->product_image }}" />
 
                         {!! $product->text_details !!}
 

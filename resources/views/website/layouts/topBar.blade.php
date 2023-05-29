@@ -6,7 +6,7 @@
                 <div class="logo">
                     <a href="/">
                         <h1>Khmerpaint</h1>
-                        <!-- <img src="img/logo.jpg" alt="Logo"> -->
+                        {{-- <img src="{{ URL::to('assets/website/img/logo-1.jpg') }}" alt="Logo"> --}}
                     </a>
                 </div>
             </div>

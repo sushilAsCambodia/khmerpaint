@@ -96,7 +96,7 @@
     <!-- Team End -->
 
     <!-- FAQs Start -->
-    <x-faqs />
+    {{-- <x-faqs /> --}}
     <!-- FAQs End -->
 
     <!-- Testimonial Start -->

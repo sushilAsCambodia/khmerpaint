@@ -1363,7 +1363,7 @@ a:focus {
 
 .single .single-content img {
     margin-bottom: 20px;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .single .single-tags {
