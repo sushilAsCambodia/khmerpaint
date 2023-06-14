@@ -5,8 +5,8 @@
             <div class="col-lg-4 col-md-12">
                 <div class="logo">
                     <a href="/">
-                        <h1>Khmerpaint</h1>
-                        {{-- <img src="{{ URL::to('assets/website/img/logo-1.jpg') }}" alt="Logo"> --}}
+                        {{-- <h1>Khmerpaint</h1> --}}
+                        <img src="{{ URL::to('assets/website/img/logo/Khmer Paint Logo- Light Background2.png') }}" alt="Logo">
                     </a>
                 </div>
             </div>
@@ -19,7 +19,7 @@
                             </div>
                             <div class="top-bar-text">
                                 <h3>Opening Hour</h3>
-                                <p>Mon - Fri, 8:00 - 9:00</p>
+                                <p>Mon - Sat, 8:00 - 12:00</p>
                             </div>
                         </div>
                     </div>
@@ -30,7 +30,8 @@
                             </div>
                             <div class="top-bar-text">
                                 <h3>Call Us</h3>
-                                <p>+012 345 6789</p>
+                                <p>+855 (0) 12526568</p>
+                                <p>+855 (0) 16526568</p>
                             </div>
                         </div>
                     </div>
@@ -41,7 +42,7 @@
                             </div>
                             <div class="top-bar-text">
                                 <h3>Email Us</h3>
-                                <p>info@example.com</p>
+                                <p>khmerpaint@gmail.com.kh</p>
                             </div>
                         </div>
                     </div>
@@ -68,17 +69,17 @@
                     <a href="service" class="nav-item nav-link {{ (request()->is('service') ? 'active' :'') }}">Service</a>
                     <a href="team" class="nav-item nav-link {{ (request()->is('team') ? 'active' :'') }}">Team</a>
                     <a href="products" class="nav-item nav-link {{ (request()->is('products') ? 'active' :'') }}">Products</a>
-                    <div class="nav-item dropdown">
+                    {{-- <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle {{ (request()->is('blogs') ? 'active' :'') }}  {{ (request()->is('single') ? 'active' :'') }}" data-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu">
                             <a href="blogs" class="dropdown-item">Blog Page</a>
                             <a href="single" class="dropdown-item">Single Page</a>
                         </div>
-                    </div>
+                    </div> --}}
                     <a href="contact" class="nav-item nav-link {{ (request()->is('contact') ? 'active' :'') }}">Contact</a>
                 </div>
                 <div class="ml-auto">
-                    <a class="btn" href="#">Get A Quote</a>
+                    <a class="btn" href="/contact">Get A Quote</a>
                 </div>
             </div>
         </nav>

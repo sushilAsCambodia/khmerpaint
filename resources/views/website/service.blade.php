@@ -9,7 +9,7 @@
     <!-- Service End -->
 
     <!-- FAQs Start -->
-    <x-faqs />
+    {{-- <x-faqs /> --}}
     <!-- FAQs End -->
 @endsection
 @section('script')

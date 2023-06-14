@@ -14,18 +14,21 @@
                 </div>
                 <div class="about-text">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur
-                        facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum,
-                        viverra quis sem.
+                        <b>OUR VISION</b> - KHMER PAINT aspires to become one of the key players in painting business
+                        in the country with high quality products and outstanding workmanship at reasonable
+                        cost.
                     </p>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur
-                        facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum,
-                        viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur
-                        convallis
-                        porttitor. Aliquam interdum at lacus non blandit.
+                        <b> OUR MISSION </b> - to become a major paint company in Cambodia by providing value
+                        added services to our clients and creating a successful partnership with them
+                        throughout the painting process. We aim to establish lasting relationships by exceeding
+                        our customer expectation through exceptional performance of our team.
                     </p>
-                    <a class="btn" href="">Learn More</a>
+                    @if(request()->is('about'))
+                        <a class="btn" href="/contact">Learn More</a>
+                     @else
+                        <a class="btn" href="/about">Learn More</a>
+                    @endif
                 </div>
             </div>
         </div>

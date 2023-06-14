@@ -15,7 +15,8 @@
                         </div>
                         <div class="feature-text">
                             <h3>Expert Worker</h3>
-                            <p>Lorem ipsum dolor sit amet elit. Phasus nec pretim ornare velit non</p>
+                            <p>Expert workers have a deep understanding of the subject matter in their field. They are able
+                                to apply this knowledge to solve problems and make decisions.</p>
                         </div>
                     </div>
                 </div>
@@ -26,7 +27,8 @@
                         </div>
                         <div class="feature-text">
                             <h3>Quality Work</h3>
-                            <p>Lorem ipsum dolor sit amet elit. Phasus nec pretim ornare velit non</p>
+                            <p>Customers are satisfied with the quality of work they receive, they are more likely to do
+                                business with you again in the future.</p>
                         </div>
                     </div>
                 </div>
@@ -37,7 +39,8 @@
                         </div>
                         <div class="feature-text">
                             <h3>24/7 Support</h3>
-                            <p>Lorem ipsum dolor sit amet elit. Phasus nec pretim ornare velit non</p>
+                            <p>KHMER PAINT is one of the largest paint companies in Cambodia, and they offer a variety of support
+                                services for their customers, including 24/7 technical support.</p>
                         </div>
                     </div>
                 </div>
@@ -61,8 +64,8 @@
     <!-- Video Start -->
     <div class="video wow fadeIn" data-wow-delay="0.1s">
         <div class="container">
-            <button type="button" class="btn-play" data-toggle="modal"
-                data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
+            <button type="button" class="btn-play" data-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                data-target="#videoModal">
                 <span></span>
             </button>
         </div>
@@ -105,14 +108,22 @@
             <div class="row">
                 <div class="col-12">
                     <div class="testimonial-slider-nav">
-                        <div class="slider-nav"><img src="{{ URL::to('assets/website/img/testimonial-1.jpg') }}" alt="Testimonial"></div>
-                        <div class="slider-nav"><img src="{{ URL::to('assets/website/img/testimonial-2.jpg') }}" alt="Testimonial"></div>
-                        <div class="slider-nav"><img src="{{ URL::to('assets/website/img/testimonial-3.jpg') }}" alt="Testimonial"></div>
-                        <div class="slider-nav"><img src="{{ URL::to('assets/website/img/testimonial-4.jpg') }}" alt="Testimonial"></div>
-                        <div class="slider-nav"><img src="{{ URL::to('assets/website/img/testimonial-1.jpg') }}" alt="Testimonial"></div>
-                        <div class="slider-nav"><img src="{{ URL::to('assets/website/img/testimonial-2.jpg') }}" alt="Testimonial"></div>
-                        <div class="slider-nav"><img src="{{ URL::to('assets/website/img/testimonial-3.jpg') }}" alt="Testimonial"></div>
-                        <div class="slider-nav"><img src="{{ URL::to('assets/website/img/testimonial-4.jpg') }}" alt="Testimonial"></div>
+                        <div class="slider-nav"><img src="{{ URL::to('assets/website/img/testimonial-1.jpg') }}"
+                                alt="Testimonial"></div>
+                        <div class="slider-nav"><img src="{{ URL::to('assets/website/img/testimonial-2.jpg') }}"
+                                alt="Testimonial"></div>
+                        <div class="slider-nav"><img src="{{ URL::to('assets/website/img/testimonial-3.jpg') }}"
+                                alt="Testimonial"></div>
+                        <div class="slider-nav"><img src="{{ URL::to('assets/website/img/testimonial-4.jpg') }}"
+                                alt="Testimonial"></div>
+                        <div class="slider-nav"><img src="{{ URL::to('assets/website/img/testimonial-1.jpg') }}"
+                                alt="Testimonial"></div>
+                        <div class="slider-nav"><img src="{{ URL::to('assets/website/img/testimonial-2.jpg') }}"
+                                alt="Testimonial"></div>
+                        <div class="slider-nav"><img src="{{ URL::to('assets/website/img/testimonial-3.jpg') }}"
+                                alt="Testimonial"></div>
+                        <div class="slider-nav"><img src="{{ URL::to('assets/website/img/testimonial-4.jpg') }}"
+                                alt="Testimonial"></div>
                     </div>
                 </div>
             </div>
@@ -183,7 +194,7 @@
     <!-- Testimonial End -->
 
     <!-- Blog Start -->
-    <x-blog />
+    {{-- <x-blog /> --}}
     <!-- Blog End -->
 @endsection
 @section('script')

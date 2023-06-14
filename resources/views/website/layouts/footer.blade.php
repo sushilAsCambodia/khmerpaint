@@ -5,15 +5,16 @@
             <div class="col-md-6 col-lg-3">
                 <div class="footer-contact">
                     <h2>Office Contact</h2>
-                    <p><i class="fa fa-map-marker-alt"></i>123 Street, New York, USA</p>
-                    <p><i class="fa fa-phone-alt"></i>+012 345 67890</p>
-                    <p><i class="fa fa-envelope"></i>info@example.com</p>
+                    <p><i class="fa fa-map-marker-alt"></i>Cambodia..</p>
+                    <p><i class="fa fa-phone-alt"></i>+855 (0) 12526568</p>
+                    <p><i class="fa fa-phone-alt"></i>+855 (0) 16526568</p>
+                    <p><i class="fa fa-envelope"></i>khmerpaint@gmail.com.kh</p>
                     <div class="footer-social">
-                        <a href=""><i class="fab fa-twitter"></i></a>
+                        {{-- <a href=""><i class="fab fa-twitter"></i></a> --}}
                         <a href=""><i class="fab fa-facebook-f"></i></a>
                         <a href=""><i class="fab fa-youtube"></i></a>
-                        <a href=""><i class="fab fa-instagram"></i></a>
-                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                        {{-- <a href=""><i class="fab fa-instagram"></i></a> --}}
+                        {{-- <a href=""><i class="fab fa-linkedin-in"></i></a> --}}
                     </div>
                 </div>
             </div>
@@ -41,8 +42,8 @@
                 <div class="newsletter">
                     <h2>Newsletter</h2>
                     <p>
-                        Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non
-                        vulpu
+                        KHMER PAINT aspires to become one of the key players in painting business in the country with
+                        high quality products and outstanding workmanship at reasonable cost.
                     </p>
                     <div class="form">
                         <input class="form-control" placeholder="Email here">
@@ -52,7 +53,7 @@
             </div>
         </div>
     </div>
-    <div class="container footer-menu">
+    {{-- <div class="container footer-menu">
         <div class="f-menu">
             <a href="">Terms of use</a>
             <a href="">Privacy policy</a>
@@ -60,14 +61,14 @@
             <a href="">Help</a>
             <a href="">FQAs</a>
         </div>
-    </div>
+    </div> --}}
     <div class="container copyright">
         <div class="row">
             <div class="col-md-6">
                 <p>&copy; <a href="#">Khmer Paint</a>, All Right Reserved.</p>
             </div>
             <div class="col-md-6">
-                <p>Designed By <a href="#">Sushil</a></p>
+                <p>Designed By <a href="#">Technoware</a></p>
             </div>
         </div>
     </div>

@@ -18,21 +18,22 @@
                             <i class="flaticon-address"></i>
                             <div class="contact-text">
                                 <h2>Location</h2>
-                                <p>123 Street, New York, USA</p>
+                                <p>Cambodia..</p>
                             </div>
                         </div>
                         <div class="contact-item">
                             <i class="flaticon-call"></i>
                             <div class="contact-text">
                                 <h2>Phone</h2>
-                                <p>+012 345 67890</p>
+                                <p>+855 (0) 12526568</p>
+                                <p>+855 (0) 16526568</p>
                             </div>
                         </div>
                         <div class="contact-item">
                             <i class="flaticon-send-mail"></i>
                             <div class="contact-text">
                                 <h2>Email</h2>
-                                <p>info@example.com</p>
+                                <p>khmerpaint@gmail.com.kh</p>
                             </div>
                         </div>
                     </div>
